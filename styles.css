@@ -1,0 +1,72 @@
+body {
+    background: rgb(32, 32, 32)
+}
+
+#score {
+    color: #287528;
+    font-family: Arial;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 15px;
+}
+
+#score h3 {
+    margin: 5px;
+}
+
+.grid{
+    display: flex;
+    width: 360px;
+    height: 460px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+    transition: border 0.2s ease;
+}
+
+img:hover {
+    border: 2px solid rgb(79, 79, 255);
+}
+
+
+#playAgain.visible {
+    display: block;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    background-color: transparent;
+    color: #8dcf8d;
+    transition: background 0.5s ease;
+}
+
+button:hover {
+    background: #505050
+}
+
+h2 {
+    position: absolute;
+    left: calc(50vw - 300px);
+    top: 200px;
+    text-shadow: 5px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background-color: rgba(50,50,250, 0.8);
+    border-radius: 10px;
+    color: #55f155;
+}
